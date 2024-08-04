@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    overflow-x: hidden;
+    background: url(ssd_bg\ \(1\)-tablet.webp);
+    background-size: cover;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(61, 61, 61);
+    cursor: pointer;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 0, 0);
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.807);
+  }

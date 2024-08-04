@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mukta:wght@200;300;400;500;600;700;800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap"); /* Mukta, Kanit, Outfit, Noto Sans */
+
+/*--------------------------------------------------------------------------------------------------*/
+
+@media (min-width: 768px) {
+  #page4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 50px;
+    margin-bottom: 50px;
+    width: 100vw;
+    box-sizing: border-box;
+  }
+  #page4 .team_content {
+    border: 5px solid white;
+    border-radius: 20px;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  #page4 .team_content h2,
+  ._AA_ {
+    font-family: kanit;
+    font-weight: 500;
+    font-size: 30px;
+    color:rgb(40, 40, 239);
+    text-align: center;
+  }
+
+  #page4 .team_content h2:nth-child(1) {
+    margin-bottom: 30px;
+  }
+
+  ._AA_ {
+    margin: 40px;
+    margin-bottom: 0px;
+  }
+
+  #page4 .heading_4 {
+    font-family: "outfit";
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    padding: 20px 0;
+  }
+  #page4 .heads {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #page4 .heads .image_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #page4 .heads .image_wrapper .head_contact_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #page4 .heads .image_wrapper img {
+    width: 100%;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-bottom: 10px;
+    cursor: pointer;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.333);
+  }
+
+  #page4 .heads .image_wrapper span {
+    font-family: "outfit";
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+  }
+
+  #page4 .AAs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #page4 .AAs .AA_column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+  }
+
+  #page4 .AAs .AA_column:nth-child(1) {
+    border-right: 4px solid white;
+  }
+
+  #page4 .AAs .AA_column div {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 80%;
+    font-family: "outfit";
+    font-size: 20px;
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+
+  #page4 .AAs .AA_column div p {
+    margin-top: 5px;
+  }
+
+  /* To align all the mobile numbers */
+  #page4 .AAs .AA_column div p:nth-child(2) {
+    width: 30%;
+  }
+
+  #page4 #show_AAs_button {
+    display: none;
+  }
+}
+
+/*---------------------------------------------------------------------------------*/
+
+@media (max-width: 768px) {
+  #page4 {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+
+  #page4 .team_content h2,
+  ._AA_ {
+    font-family: kanit;
+    font-weight: 500;
+    font-size: 25px;
+    color: rgb(40, 40, 239);
+    text-align: center;
+  }
+
+  #page4 .team_content h2:nth-child(1) {
+    margin: 30px;
+  }
+
+  ._AA_ {
+    margin: 20px;
+    margin-bottom: 10px;
+    display: none;
+  }
+
+  #page4 .heading_4 {
+    font-family: "outfit";
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+  }
+
+  #page4 .team_content .heads .image_wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: rgb(0, 0, 0, 0.3);
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 20px 0;
+  }
+
+  #page4 .team_content .heads .image_wrapper .head_contact_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    margin-left: 20px;
+    font-family: "outfit";
+    color: white;
+    font-size: 20px;
+  }
+
+  #page4 .team_content .heads .image_wrapper img {
+    width: 30%;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-right: 10px;
+    cursor: pointer;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.333);
+  }
+
+  #page4 .team_content #show_AAs_button {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    border: none;
+    outline: none;
+    font-family: "outfit";
+    font-size: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+  }
+
+  #page4 .team_content .AAs {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+  }
+
+  #page4 .team_content .AAs .AA_column div {
+    font-family: "noto sans";
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 20px;
+    font-size: 17px;
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+  }
+}
